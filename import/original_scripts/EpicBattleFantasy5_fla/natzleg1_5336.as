@@ -1,0 +1,63 @@
+package EpicBattleFantasy5_fla
+{
+   import flash.accessibility.*;
+   import flash.display.*;
+   import flash.errors.*;
+   import flash.events.*;
+   import flash.filters.*;
+   import flash.geom.*;
+   import flash.globalization.*;
+   import flash.media.*;
+   import flash.net.*;
+   import flash.net.drm.*;
+   import flash.system.*;
+   import flash.text.*;
+   import flash.text.ime.*;
+   import flash.ui.*;
+   import flash.utils.*;
+   
+   [Embed(source="/_assets/assets.swf", symbol="symbol11530")]
+   public dynamic class natzleg1_5336 extends MovieClip
+   {
+      public function natzleg1_5336()
+      {
+         super();
+         addFrameScript(0,this.frame1,1,this.frame2,11,this.frame12);
+      }
+      
+      internal function frame1() : *
+      {
+         try
+         {
+            if(Boolean(parent.zombieMode) && Boolean(parent.zombieAnna))
+            {
+               gotoAndStop(55);
+            }
+            else if(Boolean(parent.zombieMode) && Boolean(parent.zombieNatz))
+            {
+               gotoAndStop(56);
+            }
+            else
+            {
+               gotoAndStop(Players.equips[parent.playerNo][2]);
+            }
+         }
+         catch(errObject:Error)
+         {
+         }
+      }
+      
+      internal function frame2() : *
+      {
+         if(parent.playerNo == 4)
+         {
+            gotoAndStop(40);
+         }
+      }
+      
+      internal function frame12() : *
+      {
+      }
+   }
+}
+

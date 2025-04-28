@@ -1,0 +1,58 @@
+package
+{
+   import flash.accessibility.*;
+   import flash.display.*;
+   import flash.errors.*;
+   import flash.events.*;
+   import flash.filters.*;
+   import flash.geom.*;
+   import flash.globalization.*;
+   import flash.media.*;
+   import flash.net.*;
+   import flash.net.drm.*;
+   import flash.system.*;
+   import flash.text.*;
+   import flash.text.ime.*;
+   import flash.ui.*;
+   import flash.utils.*;
+   
+   [Embed(source="/_assets/assets.swf", symbol="symbol10486")]
+   public dynamic class Geometry2 extends SpellMC
+   {
+      public function Geometry2()
+      {
+         super();
+         addFrameScript(0,this.frame1,16,this.frame17,40,this.frame41,60,this.frame61,84,this.frame85);
+      }
+      
+      internal function frame1() : *
+      {
+         init(Target.ONE_ENEMY,3);
+         if(!Options.showFlashes)
+         {
+            gotoAndPlay("alt");
+         }
+      }
+      
+      internal function frame17() : *
+      {
+         Skills.geometry2();
+      }
+      
+      internal function frame41() : *
+      {
+         k();
+      }
+      
+      internal function frame61() : *
+      {
+         Skills.geometry2();
+      }
+      
+      internal function frame85() : *
+      {
+         k();
+      }
+   }
+}
+
