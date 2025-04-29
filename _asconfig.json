@@ -6,5 +6,5 @@
 		],
 		"output": "bin/ebf5_dummy.swf"
 	},
-	"mainClass": "Main"
+	"mainClass": "import/all_scripts/Main"
 }
