@@ -19,6 +19,7 @@ the patch to their own copy of a vanila ebf5 v2.1.4 swf to continue contributing
 if you want to use it (for more than just syntax highlighting to be enabled),<br>
 rename `_asconfig.json` to `asconfig.json`. If you would prefer a lighter weight set up,<br>
 you can use "ActionScript & MXML without" renaming `_asconfig.json` and "AS2 Language Support".<br>
+- `/import/all_scripts/` and `/import/scripts` should have all modified scripts up to date at all times.<br>
 
 ### Getting an up to date swf
 1. Apply the `ebf5-AP.xdelta` patch to a vanila ebf5 v2.1.4 swf.<br>

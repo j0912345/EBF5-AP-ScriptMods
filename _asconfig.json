@@ -2,7 +2,7 @@
 	"config": "air",
 	"compilerOptions": {
 		"source-path": [
-			"all_scripts", "scripts"
+			"/import/all_scripts"
 		],
 		"output": "bin/ebf5_dummy.swf"
 	},
