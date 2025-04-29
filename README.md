@@ -24,7 +24,7 @@ you can use "ActionScript & MXML without" renaming `_asconfig.json` and "AS2 Lan
 1. Apply the `ebf5-AP.xdelta` patch to a vanila ebf5 v2.1.4 swf.<br>
 2. With JPEXS, import scripts from `./import/`. This will automatically import scripts from `./import/scripts/`.<br>
 
-### style guide
+### Style guide
 This project uses the default formatting settings included with jpexs. IE:<br>
 - `Characters per indent` = 3
 - `Curly brace on new line` = true
